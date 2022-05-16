@@ -1,0 +1,24 @@
+:root {
+  --font: sans-serif;
+  --fontsize: 16px;
+  --fontweight: normal;
+  --headingfont: var(--font);
+  --headingweight: bold;
+  --lineheight: 1.4;
+  --color: #000;
+}
+
+html {
+  font-size: var(--fontsize);
+  line-height: var(--lineheight);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font);
+  font-weight: var(--fontweight);
+  color: var(--color);
+}
